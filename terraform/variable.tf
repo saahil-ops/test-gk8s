@@ -10,6 +10,12 @@ variable "region" {
   default     = "us-central1"
 }
 
+variable "zone" {
+  description = "this is the zone"
+  type        = string
+  default     = "us-central1-c"
+}
+
 variable "K8s_version" {
   description = "this is the gke version"
   type        = string
